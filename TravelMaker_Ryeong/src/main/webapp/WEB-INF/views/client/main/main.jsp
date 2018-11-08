@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/include/include-header.jspf" %>
-    <title>Travel Maker프로젝트 jsp기본구조</title>
+    <title>Main</title>
     <style>
     </style>
 
@@ -8,9 +8,11 @@
     </script>
 <%@ include file="/WEB-INF/include/include-bodyHeader.jspf" %>
 <%@ include file="/WEB-INF/views/common/include/left_.jsp" %>
-<%@ include file="//WEB-INF/views/common/include/top_.jsp" %>
+<%@ include file="/WEB-INF/views/common/include/top_.jsp" %>
     <section class="vbox main">
-        <%request.getRequestDispatcher("/test/testMain.do").forward(request, response);%>
+   <%-- <jsp:include page="/test/testMain.do"/>--%>
+        <iframe src="/test/testMain.do" width="100%" height="100%"/>
     </section>
+<%@ include file="/WEB-INF/views/common/include/bottom_.jsp" %>
 <%@ include file="/WEB-INF/include/include-bodyFooter.jspf" %>
 
