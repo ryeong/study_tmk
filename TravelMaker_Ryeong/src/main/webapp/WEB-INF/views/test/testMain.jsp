@@ -41,7 +41,9 @@
         });
     </script>
 <%@ include file="/WEB-INF/include/include-bodyHeader.jspf" %>
-    <div id="wrapper">
+<%@ include file="/WEB-INF/views/common/include/left_.jsp" %>
+<%@ include file="//WEB-INF/views/common/include/top_.jsp" %>
+    <section class="vbox main">
         <span>ㅇ${test}</span> <br><br>
 
         <span>ㅇAjax 통신 예제</span><br>
@@ -53,5 +55,5 @@
         <p id="jsonExample"></p><br>
         <button type="button" id="jsonBtn">클릭 시 Ajax통신 + Json형태로 데이터를 보내고 DB에서 데이터를 가져와 JSON객체 형태로 가져옵니다.</button>
         <br><br>
-    </div>
+    </section>
 <%@ include file="/WEB-INF/include/include-bodyFooter.jspf" %>

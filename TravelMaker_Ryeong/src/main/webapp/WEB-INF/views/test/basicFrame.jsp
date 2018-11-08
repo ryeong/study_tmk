@@ -7,6 +7,9 @@
     <script>
     </script>
 <%@ include file="/WEB-INF/include/include-bodyHeader.jspf" %>
+<%@ include file="/WEB-INF/views/common/include/left_.jsp" %>
+<%@ include file="//WEB-INF/views/common/include/top_.jsp" %>
+    <section class="vbox main">
 
-
+    </section>
 <%@ include file="/WEB-INF/include/include-bodyFooter.jspf" %>
