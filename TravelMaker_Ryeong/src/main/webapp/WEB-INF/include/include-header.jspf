@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<%@ page pageEncoding="utf-8"%>
+
+<head>
+<%@ include file="/WEB-INF/include/htmlMeta.jspf"%>
+
+<%@ include file="/WEB-INF/include/commonCss.jspf"%>
+
+<%@ include file="/WEB-INF/include/commonJs.jspf"%>
+
+

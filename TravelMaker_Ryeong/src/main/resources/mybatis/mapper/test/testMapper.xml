@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.testMapper">
+    <select id="testSelect" resultType="TestVo">
+        SELECT TEST_COL
+        FROM TABLE1
+        WHERE IDX = 1
+
+        /* test.dao.TestDao.testSelect */
+    </select>
+
+    <select id="testAjax" resultType="String">
+        SELECT TEST_COL
+        FROM TABLE1
+        WHERE IDX = 2
+
+        /* test.dao.TestDao.testAjax */
+    </select>
+
+    <select id="testJson" resultType="String">
+        SELECT TEST_COL
+        FROM TABLE1
+        WHERE IDX = 3
+
+        /* test.dao.TestDao.testJson */
+    </select>
+</mapper>

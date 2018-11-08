@@ -1,0 +1,388 @@
+﻿
+#icon {    
+    right: 10px;
+  }
+#logo {
+    max-height: 200px;
+  }
+
+
+
+        /*로고 이미지*/
+.nav-brand {
+  background-color: #ffffff;  
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  display: block;    
+}
+
+.nav-brand img {
+  max-height: 20px;
+  margin-top: -5px;
+  vertical-align: middle;
+  margin-right: 62px;
+  padding-top: 7px;
+}
+
+@media (max-width: 767px) {
+  .nav-brand img {
+    max-height: 20px;
+    margin-top: 0px;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding-top: 0;
+  }
+}
+
+.bg-light.lter,
+.bg-light .lter {
+  width: 5px;
+  background-color: #5DB6F3;
+}
+
+.footer {
+  text-align: left;
+  left: 179px;
+  margin-top: 2px;
+  background-color: #666666;
+  color: #ffffff;
+}
+
+@media (max-width: 767px){
+    .vbox > footer {
+    top : auto;
+    text-align: left;
+    margin-top: 250px;
+    padding-bottom: 4px;
+    height: 50px;
+  }
+}
+@media (min-width: 768px){
+    .vbox > footer {        
+    margin-top: 0px;
+    top: 935px;
+    height: 50px;
+    }
+}
+
+
+.bg-black {
+  background-color: #f2f2f2;
+  color: #666666;
+  font-size: 14px;
+}
+
+@media (min-width: 768px){
+.aside {
+    width: 180px;
+  }
+}
+
+    /*모바일화면 상단 아이콘*/
+.bg-black a {
+  color: #666666;
+}
+.bg-black a:hover {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+.nav-bar > .btn {
+    position: absolute;
+    font-size: 1.3em;
+    padding: 0px 12px;
+    line-height: 30px;
+  }
+}
+
+      /*좌측 네비바*/
+.bg-dark.dk, .bg-dark .dk {
+    background-color: #ffffff;
+}
+.bg-dark .nav li > a {
+  color: #666666;
+  font-size: 12px;
+}
+.bg-dark .nav li > a:hover {
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(1,0,0,.5));
+}
+.nav-primary > ul > li.dropdown-submenu:hover > a, .nav-primary > ul > li.dropdown-submenu:focus > a, .nav-primary > ul > li > a:hover, 
+.nav-primary > ul > li > a:focus, .nav-primary > ul > li > a:active, .nav-primary > ul > li.active > a {
+    color: #000000;
+    background-color: inherit;
+    background-color: #ffffff !important;
+    text-shadow: none;
+}
+
+.nav-primary > ul > li > a {
+    padding: 15px 15px;
+    position: relative;
+    font-weight: normal;
+    text-shadow: 0 0 0 #666666;
+    border-bottom: 0 #666666 !important;
+    border-top: 0 #666666 !important;
+    transition: color .3s ease-in-out 0s;
+}
+
+
+                /* 상단 네비바 */
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #717171;
+    background-color: #ffffff;    
+}
+.text-white .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #666666;
+}
+.bg-black .nav .open > a {
+  background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #000000;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .open > a .caret, .navbar-inverse .navbar-nav > .open > a:hover .caret, 
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+    border-top-color: #000000;
+    border-bottom-color: #ffffff;    
+}
+.bg-black .nav li > a {
+    color: #666666;
+    font-size: 14px;
+}
+              /*상단 네비바 드랍메뉴*/
+.bg-black .nav li > ul.dropdown-menu > li > a {
+  color: #666666;
+  font-size: 12px;  
+}
+.bg-black .nav li > a:hover {
+    background-color: #ffffff; 
+}
+.bg-black .nav li > ul.dropdown-menu > li > a:hover {
+    color: #000000;
+}
+.dropdown-menu {
+    font-size: 13px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 0px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+     /*좌측 네비바 드랍메뉴*/
+.bg-dark.dker, .bg-dark .dker {
+    background-color: #ffffff;
+    padding-left: 20px;
+}
+        /*컨텐츠 영역*/
+@media (min-width: 768px){
+.vbox > section.w-f {
+    bottom: 0px;
+    top: 107px;
+  }
+}
+
+          /* footer */
+.header > p, .footer > p {
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 11px;
+}
+
+@media (min-width: 768px) {
+.vbox > header ~ section {
+    top: 150px;
+  }
+}
+
+
+          /*헤드 영역*/
+#htop {
+    height: 57px;
+    width: 100%;    
+    background: url(../images/topnavi_shadow.png) repeat-x;
+    background-image: url("../images/topnavi_shadow.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #ffffff;
+}
+        /*bmw logo*/
+.bmwlogo {
+    position: absolute;
+    top: 0px;
+    left: 795px;
+    z-index: 1000;
+  }
+
+  @media (min-width: 800px) and (max-width: 980px) {
+.bmwlogo {
+    position: absolute;
+    top: 0px;
+    left: 630px;
+    z-index: 1000;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 799px){
+.bmwlogo {
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    z-index: 1000;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 767px){
+.bmwlogo {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    z-index: 1000;
+  }
+}
+  @media (min-width: 550px) and (max-width: 649px){
+.bmwlogo {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    z-index: 1000;
+  }
+}
+      /*상단 제일 위 영역*/
+#navtop .nav a {
+    height: 18px;
+    padding: 0 21px 0 14px;
+    font-size: 11px;
+    color: #ffffff;
+  }
+#htop #navtop .nav .korea {
+  top : 1px;
+}
+
+#navtop .topnav {
+  height: 18px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #666666;
+}
+
+#navtop .nav a:hover {    
+    font-size: 11px;
+    color: #ffffff;
+    background-color: #666666;
+}
+
+@media (max-width: 767px) {
+#navtop .nav a {
+    height: 10px;
+    padding: 0 21px 0 14px;
+    font-size: 11px;
+    float: left;
+    bottom: 2px;
+  }
+#htop #navtop .nav .korea {
+    top: -1px;
+  }
+}
+
+         /*버튼 */
+#button {
+    padding: 0 8px;
+    box-sizing: content-box;
+    display: inline-block;
+    margin: 5px 0;
+    text-align: right;                                    
+}
+@media (max-width: 767px) {
+  #button {
+     padding: 0 8px;
+     box-sizing: content-box;
+     display: inline-block;
+     margin: 5px 16px;
+     text-align: right;
+     margin-right: -14px;                     
+  }    
+}
+
+@media (max-width: 767px) {
+.nav-bar > .btn {
+    position: absolute;
+    font-size: 1.3em;
+    padding: 0px 12px;
+    line-height: 30px;
+  }
+}
+
+
+@media (min-width: 767px) {
+.hbox > aside {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding: 0;
+    float: none;   
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+.hbox > aside {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    padding: 0;
+    float: none;    
+    border-right: 1px solid rgba(102, 102, 102, 0.17);
+    height: 616px;
+  }
+}
+@media (min-width: 768px) {
+.bg-black.dk, .bg-black .ok {    
+    height: 50px;
+    right: 1px;
+  }
+}
+.bg-black.dk, .bg-black .dk {
+    background-color: #ffffff;
+  }
+
+  #navmenu {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+       /*모바일 영역*/
+@media (max-width: 767px) {
+.hidden-xs.show {
+    display: inherit !important;
+    margin-top: 6px;
+  }
+}
+
+
+@media (min-width: 768px) {
+#nav {
+    z-index: 1000;   
+    transition: width .25s;   
+    backface-visibility: hidden;
+    height: 872px;
+  }
+}
